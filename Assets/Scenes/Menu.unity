@@ -835,6 +835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992621248}
   - component: {fileID: 992621247}
+  - component: {fileID: 992621249}
   m_Layer: 0
   m_Name: Menu Manager
   m_TagString: Untagged
@@ -854,6 +855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fdfdf1c56785947bd9d5830598e09e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuUIHandler
+  ColorPicker: {fileID: 991742394}
 --- !u!4 &992621248
 Transform:
   m_ObjectHideFlags: 0
@@ -869,6 +871,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992621249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992621246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d430b3655e2ae48b6576a5105c3ada, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainManager
+  TeamColor: {r: 0.42840892, g: 0, b: 0.5283019, a: 0}
 --- !u!1 &1143283465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,6 +1678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5fdfdf1c56785947bd9d5830598e09e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ColorPicker: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
